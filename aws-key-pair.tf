@@ -1,0 +1,4 @@
+resource "aws_key_pair" "web" {
+  key_name   = "web"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwwvrf6AR+MGkKDhFqL93+EMJWSfwRyVdu3DcyRVUpsSF+hPMGBbefVkV+p682zsbhUdTy7CDEG6WvA6p97KUNFHJyQX/I3P7uPvgpSFSYbyQQrr3mbXEVNoE2hDDFZX3so2In6mRBIUxKH5PJJPpjmILIAVrGiSnoDlgQ0Xx6ZiZpznKhwMpXpFr2auFFdJ7A5Vy+gGQfyhzySyMvfJvSBy3QEbGI1oPz7r/5EHYOzm+b56+sKOeOOp5QqsMc1uGJ3w+gnT9Q2QL35/3bPLP8wtG3L0v/CCmixYYj7bSt4q0xLqAI6fX8OwK//D1u1TUyDMcBYbI7XRzCzFoImqJD web"
+}
